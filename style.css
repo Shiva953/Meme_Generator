@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Source Code Pro', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap') format('truetype');
+    font-size: normal;
+    font-weight: normal;
+}
+
+.generate1{
+    position: absolute;
+    left : 1200px;
+    top: 300px;
+    background-color : #28a97a; 
+    border: solid;
+    color: white;
+    padding: 25px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+.generate2{
+    position: absolute;
+    left : 1200px;
+    top: 400px;
+    background-color : #28a97a; 
+    border: solid;
+    color: white;
+    padding: 25px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+img{
+    position: absolute;
+    width: 640px;
+    height: 510px;
+    left : 150px;
+    top : 100px;
+    border : solid;
+    border-color: rgb(111, 0, 255);
+    border-width: 5px;
+}
+
+body{
+    background-color: rgb(2, 19, 27);
+}
+
+.box{
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    width: 640px;
+    height: 510px;
+    left : 166px;
+    top : 200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: 600;
+}
+.box p{
+    margin: 0;
+}
