@@ -9,7 +9,7 @@
     position: absolute;
     left : 1200px;
     top: 300px;
-    background-color : #28a97a; 
+    background-color : #2e91bf; 
     border: solid;
     color: white;
     padding: 25px 55px;
@@ -25,7 +25,7 @@
     position: absolute;
     left : 1200px;
     top: 400px;
-    background-color : #28a97a; 
+    background-color : #2e91bf; 
     border: solid;
     color: white;
     padding: 25px 55px;
@@ -49,7 +49,7 @@ img{
 }
 
 body{
-    background-color: rgb(2, 19, 27);
+    background-color: rgb(15, 2, 27);
 }
 
 .box{

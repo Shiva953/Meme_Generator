@@ -1,3 +1,4 @@
+
 async function fetchJoke() {
     const response = await fetch("https://icanhazdadjoke.com",{headers: {Accept: "application/json",},});
     return response.json()
@@ -19,7 +20,6 @@ meme_btn.addEventListener('click',function(){
     x[0].setAttribute('src',`memes/m (${rnd}).jpg`)
     y.innerHTML = ''
 })
-
 // import { getJokes } from 'sv443-joke-api';
 // getJokes()
 //   .then((res) => res.json())
