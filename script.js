@@ -13,37 +13,13 @@ const meme_btn = document.getElementsByClassName('generate2')[0]
 joke_btn.addEventListener("click",async function(){
     const { joke } = await fetchJoke();
     y.innerHTML = joke;
-    x[0].setAttribute('src','')});
-
+    x[0].removeAttribute("src");
+    x[0].style.fill = '#020B1B'
+    x[0].style.boxShadow = 'none';})
+    
 meme_btn.addEventListener('click',function(){
     let rnd = Math.floor(Math.random()*37)+1
     x[0].setAttribute('src',`memes/m (${rnd}).jpg`)
+    x[0].style.boxShadow = '0 0 20px #00f2ff8a'
     y.innerHTML = ''
 })
-// import { getJokes } from 'sv443-joke-api';
-// getJokes()
-//   .then((res) => res.json())
-//   .then((data) => {
-//     if(data.type==='single'){
-//         console.log(data.joke)
-//     }
-//     else if(data.type==='twopart'){
-//         console.log(data.setup)
-//         console.log(data.delivery)
-//     }
-//   })
-
-// JokeAPI.getJokes()
-//     .then((res) => res.json())
-//     .then((data) => {
-//         if(data.type==='single'){
-//             s = data.joke
-//         }
-//         else if(data.type==='twopart'){
-//             s = data.setup + data.delivery
-//         }
-//     })
-
-
-
-
