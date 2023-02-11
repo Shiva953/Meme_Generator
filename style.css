@@ -4,66 +4,82 @@
     font-size: normal;
     font-weight: normal;
 }
+body{
+    background-color: #020B1B;
+}
 
-.generate1{
+.buttons{
     position: absolute;
-    left : 1200px;
+    left: 900px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+.generate1{
+    position: relative;
     top: 300px;
-    background-color : #2e91bf; 
     border: solid;
-    color: white;
+    color: #64ffda;
     padding: 25px 55px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 22px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     cursor: pointer;
 }
 
 .generate2{
-    position: absolute;
-    left : 1200px;
-    top: 400px;
-    background-color : #2e91bf; 
+    position: relative;
+    top: 320px; 
     border: solid;
-    color: white;
+    color: rgb(100, 255, 218);
     padding: 25px 55px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 22px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
-
+.generate1:hover{
+    background-color: rgb(100, 255, 218,0.07);
+}
+.generate2:hover{
+    background-color: rgb(100, 255, 218,0.07);
+}
 img{
-    position: absolute;
-    width: 640px;
-    height: 510px;
-    left : 150px;
-    top : 100px;
+    width: 500px;
+    height: 500px;
     border : solid;
-    border-color: rgb(111, 0, 255);
-    border-width: 5px;
-}
-
-body{
-    background-color: rgb(15, 2, 27);
+    border-color: #64ffda;
+    border-width: 2px;
+    border-radius: 20px;
 }
 
 .box{
     box-sizing: border-box;
-    color: white;
     position: absolute;
-    width: 640px;
-    height: 510px;
-    left : 166px;
-    top : 200px;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 36px;
-    font-weight: 600;
+    width: 500px;
+    height: 500px;
+    left : 150px;
+    top : 100px;
+    border-color: #64ffda;
+    border-width: 2px;
+    border-radius: 20px;
 }
-.box p{
+p{
+    position: relative;
+    top: -400px;
+    left: 30px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 27px;
+    width: 450px;
     margin: 0;
+    font-weight: 600;
+    text-shadow:0px 0px 40px #34fcff75;
 }
